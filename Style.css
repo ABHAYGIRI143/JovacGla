@@ -1,0 +1,259 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+    width: 98vw;
+    height: 100vh;
+    min-height: 100%;
+    position: relative;
+    left: 10px;
+    top: 10px;
+  
+}
+
+nav{
+    width: 100%;
+    height: 10%;
+    display: flex;
+ 
+}
+
+#rightNav{
+    width: 60%;
+    height: 100%;
+    display: flex;
+  
+}
+
+#leftNav{
+    width: 40%;
+    height: 100%;
+
+}
+
+#btnNav{
+    width: 20%;
+    height: 40%;
+    border: 2px solid pink;
+   border-radius: 20px;
+    position: relative;
+    left: 20vw;
+    top: 4vh;
+}
+
+
+img{
+    position: relative;
+    left: 10vw;
+    top: 4vh;
+}
+
+main{
+    height: 88%;
+    width: 100%;
+    margin-top: 10px;
+ 
+}
+
+#sec1{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 40%;
+    position: relative;
+    top: 8vh;
+   
+}
+
+
+#heading{
+    height: 30%;
+    width: 100%;
+    text-align:center;
+    position: relative;
+    font-size :50px;
+    font-weight: 900;
+  
+   
+}
+
+#sec1-para{
+    height: 30%;
+    width: 50%;
+    text-align:center;
+   font-size: x-large;
+   position: relative;
+    bottom: 2vh;
+   
+}
+#sec1Btn{
+    width: 25%;
+    height: 20%;
+    border: 2px solid pink;
+    color: white;
+    background-color: rgb(235, 132, 149);
+    font-size: x-large;
+    border-radius: 30px;
+    position: relative;
+    top: 3vh;
+} 
+
+#sec2{
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: 10vh;
+}
+
+#sec2Img1{
+    position: relative;
+    left: 20vw;
+}
+
+.container {
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    max-width: 1200px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.stats {
+    display: flex;
+    height: 50%;
+    justify-content: space-around;
+    padding: 50px 0;
+    background: #fff;
+    position: relative;
+    top: 20vh;
+}
+
+.stat {
+    text-align: center;
+    height: 50%;
+}
+
+.stat h3 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.stat p {
+    font-size: 18px;
+}
+
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.content {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3rem;
+    color: #112d4e;
+    margin-bottom: 20px;
+}
+
+p {
+    color: #556b84;
+    line-height: 1.6;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.image-container {
+    position: relative;
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+}
+.con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.conten {
+    display: flex;
+    gap: 50px;
+}
+
+.imag {
+    width: 500px;
+    height: 400px;
+}
+
+.text {
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: #666;
+}
+.child1 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.text-section {
+    width: 40%;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.6;
+}
+
+.image-section {
+    width: 40%;
+}
+
+.image-section img {
+    width: 100%;
+    height: auto;
+}
+.but{
+    background-color: #ff69b4;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
